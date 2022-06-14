@@ -15,6 +15,11 @@ duration of the job. The job ranges anywhere from 50 to like 90 seconds. Keep th
 finished, 9 images are returned in the form of a base64 encoded string. The api.php will handle the response and prepare it for being returned
 to the javascript code.
 
+### Why is api.php required?
+You might be wondering why javascript can't just request from dalle-mini directly. This has mainly to do with CORS restrictions, and the 
+inability of javascript to performa POST request to another domain. As such, we use our own php script to perform the POST request, and 
+then maintain a connection to our own server.
+
 ### Deployment
 If you wish to deploy this code, simply move the files into an accessible, php enabled directory on your website. Make sure to make the following
 changes:
