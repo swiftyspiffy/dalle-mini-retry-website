@@ -1,0 +1,28 @@
+html, 
+body {
+	background-color: #0b0f19 !important;
+	height: 100% !important;
+}
+
+#main {
+	background-color: #1f2937 !important;
+}
+
+#query {
+	background-color: #1f2937 !important;
+}
+
+#run {
+	background-color: #ce6400 !important;
+	font-weight: bold;
+}
+
+#logs {
+	background-color: #1f2937 !important;
+}
+
+#footer {
+	background-color: #1f2937 !important;
+	padding-top: 20px;
+    padding-bottom: 10px;
+}
